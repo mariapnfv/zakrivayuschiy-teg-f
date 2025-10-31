@@ -19,7 +19,7 @@
   color: var(--main-font-color);
   background-color: #fff;
   background-image: var(--bg-gradient);
-  background-size: cover; 
+  background-size: cover;
   display: grid;
   justify-content: center;
   margin-block-start: 100px;
@@ -305,7 +305,7 @@ dialog::backdrop {
 }
 
 .footer {
-margin-block-end: 100px;
+  margin-block-end: 100px;
 }
 
 @media (width <=375px) {
