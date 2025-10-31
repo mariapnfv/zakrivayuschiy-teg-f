@@ -5,16 +5,19 @@
    --accent-color: #000;
    --main-font-color: #000;
    --mix-blend-mode-color: #fff;
-   --color-contour: #000; /*контур*/
-   --animation-fill-color: #FF0000;
-   --contour-color: transparent; /*цвет искр*/
-   --main-body-heart-color: transparent; /*цвет основного тела*/
-   --core-color: transparent; /*цвет серцевины*/
+   --color-contour: #000;    /*контур*/
+   --animation-fill-color: #FF0000; 
+   --contour-color: transparent;    /*цвет искр*/
+   --main-body-heart-color: transparent;    /*цвет основного тела*/
+   --core-color: transparent;    /*цвет серцевины*/
    --basic-font-weight: 410;
    --title-font-weight: 715;
    --title-font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
    --title-text-font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
-   --bg-gradient: repeating-linear-gradient(-90deg, #d3d3d3, #d3d3d3 2px, transparent 2px,transparent 4px), repeating-linear-gradient(#d3d3d3, #d3d3d3 2px, transparent 2px,transparent 4px), linear-gradient(#e7e7e7 0.01%, #1a1a1a); 
+   --bg-gradient:
+      repeating-linear-gradient(-90deg, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
+      repeating-linear-gradient(#d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
+      linear-gradient(#e7e7e7 0.01%, #1a1a1a);
    --width-block: clamp(23.438rem, 16.285rem + 30.52vw, 43.75rem);
    --height-logo: clamp(20.438rem, 19.535rem + 3.85vw, 23rem);
    --text-stroke-color: rgba(255, 255, 255, 0.5);
