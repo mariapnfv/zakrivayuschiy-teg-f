@@ -69,6 +69,7 @@
 }
 
 .card-content-title {
+  font-size: 18px;
   padding-inline-start: 10px;
   font-variation-settings: "wght" var(--title-font-weight);
 }
