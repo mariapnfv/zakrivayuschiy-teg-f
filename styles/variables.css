@@ -20,5 +20,5 @@
       linear-gradient(#e7e7e7 0.01%, #1a1a1a);
    --width-block: clamp(23.438rem, 16.285rem + 30.52vw, 43.75rem);
    --height-logo: clamp(20.438rem, 19.535rem + 3.85vw, 23rem);
-   --text-stroke-color: rgba(255, 255, 255, 0.5);
+   --text-stroke-color: rgba(255, 255, 255);
 }
