@@ -260,19 +260,16 @@
   width: 21px;
 }
 
-.dialog-save  {
-  display: none;
-}
-
-.dialog-save[open] {
-  display: grid;
-}
-
 .dialog-save {
+  display: none;
   gap: 30px;
   max-width: 353px;
   padding-inline: 30px;
   padding-block: 30px;
+}
+  
+.dialog-save[open] {
+  display: grid;
 }
 
 .dialog-save-diskette-title {
