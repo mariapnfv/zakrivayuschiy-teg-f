@@ -61,7 +61,7 @@
   display: grid;
   gap: 50px;
   margin-block-start: 98px;
-  margin-block-end: 50px;
+  margin-block-end: 100px;
 }
 
 .card-content {
