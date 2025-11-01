@@ -23,7 +23,7 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-variation-settings: "wght" var(--basic-font-weight);
-  background-attachment: fixed; 
+  background-attachment: fixed;
 }
 
 .header {
@@ -60,7 +60,7 @@
 .main-content {
   display: grid;
   gap: 50px;
-  margin-block-start: 100px;
+  margin-block-start: 98px;
   margin-block-end: 50px;
 }
 
@@ -268,7 +268,7 @@
   padding-inline: 30px;
   padding-block: 30px;
 }
-  
+
 .dialog-save[open] {
   display: grid;
 }
@@ -362,9 +362,13 @@ svg .main-body {
 }
 
 @media (width <=375px) {
+  .main-content {
+    margin-block-start: 100px;
+  }
+
   .card-content-title {
-  padding: 4px 10px;
-}
+    padding: 4px 10px;
+  }
 
   .dialog-save {
     max-width: 341px;
